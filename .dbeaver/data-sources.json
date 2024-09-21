@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-191c45d99fe-2a72f1fe3e8bc2c0": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "aula 2.txt",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\user\\Downloads\\TOTI FULL BACK\\PROJETO TOTI\\SQLite\\aula 2.txt",
+				"url": "jdbc:sqlite:C:\\Users\\user\\Downloads\\TOTI FULL BACK\\PROJETO TOTI\\SQLite\\aula 2.txt",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Desenvolvimento",
+			"color": "255,255,255",
+			"description": "Banco de dados de desenvolvimento",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
